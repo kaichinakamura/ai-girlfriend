@@ -1,0 +1,51 @@
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+venv/
+
+# Secrets / machine-local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Model caches / downloaded model assets (keep references, not weights)
+models/
+model_cache/
+.cache/
+.huggingface/
+.ollama/
+*.gguf
+*.safetensors
+*.aivm
+*.aivmx
+
+# User conversation, recordings, rendered media, and local diagnostics
+runtime/
+recordings/
+recorded_audio/
+generated_audio/
+outputs/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Keep intentionally committed test fixtures inside tests/fixtures/
